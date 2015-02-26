@@ -8,5 +8,5 @@ test for scoring passwords in coffeescript
 3. git clone https://github.com/pernas/score.git
 4. cd score
 5. nesh -c -e score.coffee
-6. coffee> score "mypassword", avg
-7. coffee> score "mypassword", factor
+6. coffee> score("mypassword", avg)
+7. coffee> score("mypassword", factor)
